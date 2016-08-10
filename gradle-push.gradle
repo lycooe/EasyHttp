@@ -12,7 +12,7 @@ install {
         // This generates POM.xml with proper parameters
         pom {
             project {
-                packaging 'aar'
+                packaging POM_PACKAGING
                 name 'easy code for android'                                   // #CONFIG# // project title
                 url POM_SCM_URL
                 // Set your license
@@ -24,9 +24,9 @@ install {
                 }
                 developers {
                     developer {
-                        id 'lz'                                           // #CONFIG# // your user id (you can write your nickname)
-                        name 'liuyu'                                       // #CONFIG# // your user name
-                        email 'liu827yu@gmail.com'                             // #CONFIG# // your email
+                        id POM_DEVELOPER_ID                                           // #CONFIG# // your user id (you can write your nickname)
+                        name POM_DEVELOPER_NAME                                       // #CONFIG# // your user name
+                        email POM_DEVELOPER_EMAIL                             // #CONFIG# // your email
                     }
                 }
                 scm {
@@ -66,8 +66,8 @@ bintray {
     key = properties.getProperty("bintray.apikey")
     configurations = ['archives']
     pkg {
-        repo = "maven"
-        name = "easyhttp"                                                 // #CONFIG# project name in jcenter
+        repo = POM_BINTRAY_PRPO
+        name = POM_NAME                                                 // #CONFIG# project name in jcenter
         websiteUrl = POM_SCM_URL
         vcsUrl = POM_GIT_URL
         licenses = ["Apache-2.0"]
