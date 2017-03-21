@@ -6,11 +6,11 @@
 Download the latest JAR or grab via Maven:
 
     <dependency>
-      <groupId>com.lz.easyhttp</groupId>
-      <artifactId>easyhttp</artifactId>
-      <version>0.1.0</version>
+      <groupId>com.lewis.magicalhttp</groupId>
+      <artifactId>magicalhttp</artifactId>
+      <version>0.1.1</version>
     </dependency>
     
 or Gradle:
 
-    compile 'com.lz.easyhttp:easyhttp:0.1.0'
+    compile 'com.lewis.magicalhttp:magicalhttp:0.1.1'
