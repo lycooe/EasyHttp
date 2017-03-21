@@ -1,1 +1,1 @@
-include ':samples', ':easyhttp'
+include ':samples', ':magicalhttp'
