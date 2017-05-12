@@ -96,7 +96,10 @@ public class EasyProgressBar {
                                     call.cancel();
                                 }
                             }
-                            progressListener.cancel();
+
+                            if (progressListener != null) {
+                                progressListener.cancel();
+                            }
 
                             if (canFinish) {
                                 act.finish();

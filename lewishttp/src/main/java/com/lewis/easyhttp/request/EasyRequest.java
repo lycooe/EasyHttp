@@ -26,6 +26,7 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
+import java.net.HttpCookie;
 import java.util.Hashtable;
 import java.util.List;
 import java.util.Map;
